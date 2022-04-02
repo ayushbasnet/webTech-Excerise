@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Lobster+Two:wght@700&family=Smooch+Sans&display=swap');
+/*
+Turquoise: #4cbfa6
+
+Soft Lilac: #f6ebf4
+
+Purple: #482673
+
+Orchid: #ed0b70
+
+Digi Denim: #301008
+*/
+
+.para {
+  width: 700px;
+  height: 233px;
+  margin: auto;
+}
+
+body {
+  text-align: center;
+  align: center;
+  background-color: #f6ebf4;
+  font-size: 18px;
+  color: #482673;
+}
+
+#menu {
+  list-style: none;
+  background-color: #f6ebf4;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  border-bottom: 1px;
+  border-top: 1px;
+}
+#menu ul{
+  padding: 0;
+}
+li {
+  text-decoration: none;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  width: 140px;
+  margin: 5px 20px 5px 20px;
+  padding: 10px;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #21130d;
+}
+
+#menu li a:hover {
+  color: #ed0b70;
+}
+
+/* Dropdown Button */
+.dropdown a {
+  padding: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+  display: none;
+  background: #f6ebf4;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#catchpharse {
+  font-family: 'Lobster Two', cursive;
+  padding-left: 35px;
+  letter-spacing: 30px;
+  font-size: 180px;
+  height: 90vh;
+  width: 96vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+span{
+  font-family: 'Kalam', cursive;
+  letter-spacing: -2px;
+  font-size: 35px;
+  flex: 100%;
+}

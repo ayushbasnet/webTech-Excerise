@@ -1,0 +1,101 @@
+/*
+#17252A
+#2B7A78
+#3AAFA9
+#DEF2F1
+#FEFFFF
+*/
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3AAFA9;
+}
+
+.wrapper {
+  margin: 25px 25px 25px 100px;
+  width: 90%;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEFFFF;
+}
+
+.container {
+  margin: 80px auto;
+  position: absolute;
+  width: 60%;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #FEFFFF;
+  align-items: center;
+}
+
+.login {
+  width: 80%;
+  height: 90%;
+  background: none;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 65px;
+  padding-bottom: 30px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+div input {
+  margin-left: 45px;
+  width: 250px;
+  height: 50px;
+  border-radius: 5%;
+  background: none;
+  border: none;
+}
+
+input:focus {
+  outline: 0;
+  border-bottom: 1px Solid;
+}
+
+#icon {
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+}
+
+#signIn {
+  border-radius: 30px;
+}
+
+#remember {
+  width: 15px;
+  height: 15px;
+  padding: none;
+  margin: none;
+}
+
+#signIn:hover {
+  color: white;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+a:hover {
+  color: red;
+}
