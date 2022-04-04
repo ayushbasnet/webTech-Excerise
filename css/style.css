@@ -109,3 +109,92 @@ span{
   font-size: 35px;
   flex: 100%;
 }
+.image-content{
+  display: flex;
+  align-items: center;
+  margin-top: 4.4rem;
+  padding: 25px;
+}
+
+.image-content img{
+  height: 60vh;
+  display: block;
+margin: 0 auto;
+}
+.column{
+  flex: 33%;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f6ebf4;
+}
+
+.column:hover .overlay {
+  opacity: 0.7;
+}
+.column:hover img{
+  opacity: 0.7;
+  transition: .5s ease;
+}
+.text {
+  color: #482673;
+    font-family: 'Kalam', cursive;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.contact-wrap{
+  display: grid;
+  justify-items: center;
+  padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+.contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70vw;
+  height: 40vh;
+  border-style: solid;
+  border-width: thin;
+}
+.description{
+  color: #f6ebf4;
+  background-color: #482673;
+}
+.form-table{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  place-items: center;
+  display: grid;
+  background-color: white;
+}
+
+.form-table table {
+
+}
+
+#btn-msg{
+  background-color: #482673;
+  color: #f6ebf4;
+  border-style: none;
+  width: 10em;
+  height: 3em;
+}
+#btn-msg:hover{
+  color:#ed0b70;
+}
